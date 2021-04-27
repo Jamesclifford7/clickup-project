@@ -92,7 +92,7 @@ header button {
   position: absolute;
   width: 210px;
   height: 60px;
-  right: 240px;
+  left: 1000px;
   top: 47px;
   background: #FFFFFF;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
@@ -919,6 +919,369 @@ footer .footer-info .footer-sm .circle3 {
   background: #212353;
   opacity: 0.1;
   border-radius: 25px;
+}
+footer .footer-info .footer-sm .mobile-padding {
+  display: none;
+}
+
+/* media query for phone */
+@media all and (max-width: 450px) {
+  header {
+    text-align: center;
+  }
+  header .header-logo .header-logo-circle {
+    left: 150px;
+  }
+  header .header-logo .header-logo-rectangle {
+    left: 179px;
+  }
+  header nav {
+    width: 500px;
+    margin: 0 auto;
+    left: 310px;
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav a {
+    margin-right: 100px;
+    display: inline-block;
+  }
+  header nav .about, header nav .features, header nav .help, header nav .signup {
+    font-size: 30px;
+  }
+  header button {
+    display: none;
+  }
+
+  #info .info-container-1 p {
+    font-size: 30px;
+  }
+  #info .info-container-1 img {
+    width: 350px;
+    height: auto;
+    top: 500px;
+    left: 610px;
+  }
+  #info .info-container-1 button {
+    top: 800px;
+    width: 200px;
+    height: 90px;
+    font-size: 25px;
+  }
+  #info .info-container-2 {
+    width: 900px;
+    height: 800px;
+    left: 70px;
+    top: 1000px;
+  }
+  #info .info-container-2 img {
+    height: 300px;
+    width: auto;
+    margin-top: 200px;
+  }
+  #info .info-container-2 .info-text h2 {
+    font-size: 50px;
+  }
+  #info .info-container-2 .info-text p {
+    font-size: 30px;
+  }
+
+  #features {
+    top: 1900px;
+    left: 20px;
+  }
+  #features h2 {
+    left: 240px;
+    font-size: 80px;
+  }
+  #features p {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  #features .features-flex-container {
+    text-align: center;
+    flex-direction: column;
+    margin-top: 120px;
+  }
+  #features .features-flex-container .features-flex-item {
+    margin-left: 150px;
+    width: 700px;
+    height: 420px;
+    background-size: 500px;
+  }
+  #features .features-flex-container .features-flex-item img {
+    height: 250px;
+    width: auto;
+    top: 80px;
+  }
+  #features .features-flex-container .features-flex-item .features-text {
+    margin-left: 400px;
+    margin-top: 5px;
+  }
+  #features .features-flex-container .features-flex-item .features-text h3 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  #features .features-flex-container .features-flex-item .features-text p {
+    font-size: 20px;
+  }
+  #features .features-flex-container .features-flex-item .features-text span, #features .features-flex-container .features-flex-item .features-text svg {
+    font-size: 20px;
+    margin-top: 80px;
+    top: 50px;
+  }
+  #features .features-flex-container .hours .features-text span, #features .features-flex-container .hours .features-text svg {
+    margin-top: 50px;
+  }
+  #features .features-flex-container .security .features-text span, #features .features-flex-container .security .features-text svg {
+    margin-top: 90px;
+  }
+
+  #testimonials {
+    top: 4100px;
+    width: 900px;
+    height: 800px;
+    left: 70px;
+  }
+  #testimonials .testimonial-1 {
+    width: 700px;
+  }
+  #testimonials .testimonial-2 {
+    display: none;
+  }
+  #testimonials .arrow-l {
+    margin-left: 520px;
+  }
+  #testimonials .arrow-r {
+    opacity: 1;
+    margin-left: 50px;
+  }
+
+  footer hr {
+    display: none;
+  }
+  footer .try h2 {
+    top: 5200px;
+    left: 370px;
+    font-size: 60px;
+  }
+  footer .try p {
+    top: 5320px;
+    left: 250px;
+    font-size: 30px;
+  }
+  footer .try .try-learn {
+    top: 5500px;
+    left: 250px;
+    width: 200px;
+    height: 90px;
+    font-size: 25px;
+  }
+  footer .try .try-request {
+    top: 5500px;
+    left: 540px;
+    width: 300px;
+    height: 90px;
+  }
+  footer .try .try-request span {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  footer .footer-info .footer-contact .footer-logo-circle {
+    top: 5780px;
+    width: 35px;
+    height: 35px;
+    left: 110px;
+  }
+  footer .footer-info .footer-contact .footer-logo-rectangle {
+    top: 5765px;
+    width: 35px;
+    height: 50px;
+    left: 155px;
+  }
+  footer .footer-info .footer-contact h4 {
+    top: 5698px;
+    font-size: 30px;
+    left: 210px;
+  }
+  footer .footer-info .footer-contact .address {
+    top: 5830px;
+    font-size: 25px;
+    left: 110px;
+  }
+  footer .footer-info .footer-contact .email-phone {
+    top: 5975px;
+    font-size: 25px;
+    left: 110px;
+  }
+  footer .footer-info .footer-about span {
+    top: 5735px;
+    font-size: 30px;
+    left: 500px;
+  }
+  footer .footer-info .footer-about .profile {
+    top: 5800px;
+    font-size: 30px;
+    left: 500px;
+  }
+  footer .footer-info .footer-about .features {
+    top: 5870px;
+    font-size: 30px;
+    left: 500px;
+  }
+  footer .footer-info .footer-about .careers {
+    top: 5940px;
+    font-size: 30px;
+    left: 500px;
+  }
+  footer .footer-info .footer-about .dwnews {
+    top: 6010px;
+    font-size: 30px;
+    left: 500px;
+  }
+  footer .footer-info .footer-help span {
+    top: 5735px;
+    font-size: 30px;
+    left: 770px;
+  }
+  footer .footer-info .footer-help .support {
+    top: 5800px;
+    font-size: 30px;
+    left: 770px;
+  }
+  footer .footer-info .footer-help .signup {
+    top: 5870px;
+    font-size: 30px;
+    left: 770px;
+  }
+  footer .footer-info .footer-help .guide {
+    top: 5900px;
+    top: 5940px;
+    font-size: 30px;
+    left: 770px;
+  }
+  footer .footer-info .footer-help .reports {
+    top: 6010px;
+    font-size: 30px;
+    left: 770px;
+  }
+  footer .footer-info .footer-help .qa {
+    top: 6080px;
+    font-size: 30px;
+    left: 770px;
+  }
+  footer .footer-info .footer-sm span {
+    top: 6250px;
+    left: 500px;
+    font-size: 30px;
+  }
+  footer .footer-info .footer-sm .circle1 {
+    top: 6400px;
+    left: 200px;
+    height: 125px;
+    width: 125px;
+    border-radius: 75px;
+    margin-bottom: 100px;
+  }
+  footer .footer-info .footer-sm .circle2 {
+    top: 6400px;
+    left: 480px;
+    height: 125px;
+    width: 125px;
+    border-radius: 75px;
+  }
+  footer .footer-info .footer-sm .circle3 {
+    top: 6400px;
+    left: 750px;
+    height: 125px;
+    width: 125px;
+    border-radius: 75px;
+    margin-bottom: 1000px;
+  }
+  footer .footer-info .footer-sm .mobile-padding {
+    position: absolute;
+    top: 6500px;
+    width: 100%;
+    height: 150px;
+    display: block;
+  }
+}
+/* media query for tablet */
+@media all and (min-width: 750px) and (max-width: 1100px) {
+  header nav {
+    width: 100%;
+  }
+  header nav .about, header nav .help, header nav .features, header nav .signup {
+    font-size: 25px;
+  }
+  header button {
+    right: 0;
+    left: 1100px;
+    width: 240px;
+  }
+  header button span {
+    font-size: 20px;
+  }
+
+  #info .info-container-1 p {
+    font-size: 25px;
+  }
+  #info .info-container-1 button {
+    top: 730px;
+  }
+  #info .info-container-2 {
+    width: 1150px;
+  }
+  #info .info-container-2 .info-text {
+    top: -60px;
+  }
+  #info .info-container-2 .info-text h2 {
+    font-size: 40px;
+  }
+  #info .info-container-2 .info-text p {
+    font-size: 25px;
+  }
+
+  #features {
+    left: 300px;
+  }
+  #features h2 {
+    font-size: 50px;
+  }
+  #features p {
+    font-size: 25px;
+  }
+  #features .features-flex-container .features-flex-item {
+    height: 450px;
+    background-size: 100%;
+  }
+  #features .features-flex-container .features-flex-item img {
+    top: 120px;
+  }
+  #features .features-flex-container .features-flex-item .features-text h3 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #features .features-flex-container .features-flex-item .features-text p {
+    font-size: 20px;
+  }
+  #features .features-flex-container .search-data .features-text svg {
+    margin-top: 80px;
+  }
+  #features .features-flex-container .hours .features-text svg {
+    margin-top: 40px;
+  }
+  #features .features-flex-container .security .features-text svg {
+    margin-top: 95px;
+  }
+
+  #testimonials {
+    top: 2880px;
+    left: 300px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
