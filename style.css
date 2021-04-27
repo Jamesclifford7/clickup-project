@@ -2,12 +2,6 @@ body {
   background: #E5E5E5;
 }
 
-/* Header */
-header {
-  /* Header Logo */
-  /* Nav */
-  /* Button */
-}
 header .header-logo .header-logo-circle {
   position: absolute;
   width: 20px;
@@ -32,10 +26,6 @@ header nav {
   height: 30px;
   left: 410px;
   top: 62px;
-  /* About */
-  /* Help */
-  /* Features */
-  /* Signup */
 }
 header nav a {
   margin-right: 20px;
@@ -924,7 +914,7 @@ footer .footer-info .footer-sm .mobile-padding {
   display: none;
 }
 
-/* media query for phone */
+/* Media Query for Phone */
 @media all and (max-width: 450px) {
   header {
     text-align: center;
@@ -1207,7 +1197,7 @@ footer .footer-info .footer-sm .mobile-padding {
     display: block;
   }
 }
-/* media query for tablet */
+/* Media Query for Tablet */
 @media all and (min-width: 750px) and (max-width: 1100px) {
   header nav {
     width: 100%;
